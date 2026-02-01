@@ -199,7 +199,7 @@
       "chapter": 3
     },
     {
-      "question": "Care dintre următoarele sunt considerate costuri directe într-un proiect software? (Multiple choice)",
+      "question": "Care dintre următoarele sunt considerate costuri directe într-un proiect software?",
       "options": [
         "Salariile personalului administrativ (HR, contabilitate)",
         "Chiria sediului firmei",
@@ -265,7 +265,7 @@
       "chapter": 4
     },
     {
-      "question": "Care dintre următoarele sunt strategii de răspuns la riscurile negative (amenințări)? (Multiple choice)",
+      "question": "Care dintre următoarele sunt strategii de răspuns la riscurile negative (amenințări)?",
       "options": [
         "Evitare (Avoid)",
         "Exploatare (Exploit)",
@@ -436,7 +436,7 @@
       "chapter": 6
     },
     {
-      "question": "Care sunt dezavantajele principale ale modelului Waterfall (Cascadă)? (Multiple choice)",
+      "question": "Care sunt dezavantajele principale ale modelului Waterfall (Cascadă)?",
       "options": [
         "Este dificilă schimbarea cerințelor pe parcurs (rigiditate)",
         "Clientul vede produsul final doar la sfârșit",
@@ -476,7 +476,7 @@
       "chapter": 7
     },
     {
-      "question": "Care sunt valorile Manifestului Agile? (Multiple choice)",
+      "question": "Care sunt valorile Manifestului Agile?",
       "options": [
         "Indivizii și interacțiunile înaintea proceselor și instrumentelor",
         "Software funcțional înaintea documentației complexe",
