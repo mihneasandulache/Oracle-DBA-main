@@ -1,0 +1,585 @@
+{
+  "questions": [
+    {
+      "question": "Care este definiția unui proiect conform metodologiei de management?",
+      "options": [
+        "O activitate continuă și repetitivă de operare",
+        "Un efort temporar depus pentru a crea un produs, serviciu sau rezultat unic",
+        "O funcție de business permanentă",
+        "Un set de proceduri administrative standard"
+      ],
+      "correctAnswer": [
+        "Un efort temporar depus pentru a crea un produs, serviciu sau rezultat unic"
+      ],
+      "chapter": 1
+    },
+    {
+      "question": "Care dintre următoarele sunt caracteristici principale ale unui proiect? (Selectați toate opțiunile corecte)",
+      "options": [
+        "Este temporar (are un început și un sfârșit)",
+        "Produce rezultate unice",
+        "Are resurse nelimitate",
+        "Presupune elaborare progresivă"
+      ],
+      "correctAnswer": [
+        "Este temporar (are un început și un sfârșit)",
+        "Produce rezultate unice",
+        "Presupune elaborare progresivă"
+      ],
+      "chapter": 1
+    },
+    {
+      "question": "Cine sunt Stakeholderii (părțile implicate) într-un proiect?",
+      "options": [
+        "Doar managerul de proiect și echipa",
+        "Doar clientul care plătește proiectul",
+        "Persoane sau organizații implicate activ sau ale căror interese pot fi afectate de proiect",
+        "Doar acționarii companiei"
+      ],
+      "correctAnswer": [
+        "Persoane sau organizații implicate activ sau ale căror interese pot fi afectate de proiect"
+      ],
+      "chapter": 1
+    },
+    {
+      "question": "Ce acronim este folosit pentru clasificarea cerințelor non-funcționale (de calitate)?",
+      "options": [
+        "SWOT",
+        "FURPS",
+        "SMART",
+        "SOLID"
+      ],
+      "correctAnswer": [
+        "FURPS"
+      ],
+      "chapter": 2
+    },
+    {
+      "question": "Care este scopul fazei de 'Cerințe' (Requirements) în dezvoltarea software?",
+      "options": [
+        "Scrierea codului sursă",
+        "Instalarea sistemului pe serverele de producție",
+        "Formarea unei viziuni comune despre caracteristicile sistemului ce trebuie construit",
+        "Testarea performanței sistemului"
+      ],
+      "correctAnswer": [
+        "Formarea unei viziuni comune despre caracteristicile sistemului ce trebuie construit"
+      ],
+      "chapter": 2
+    },
+    {
+      "question": "În ce format sunt scrise de obicei 'User Stories'?",
+      "options": [
+        "Pseudocod",
+        "Ca [rol], vreau [funcționalitate] pentru [motiv]",
+        "Diagrame Entity-Relationship",
+        "Instrucțiuni IF-THEN"
+      ],
+      "correctAnswer": [
+        "Ca [rol], vreau [funcționalitate] pentru [motiv]"
+      ],
+      "chapter": 2
+    },
+    {
+      "question": "Ce document definește domeniul de aplicare (Scope) și constituie baza de referință pentru acceptarea proiectului?",
+      "options": [
+        "Scope Statement (Documentul de aplicare)",
+        "Diagrama Gantt",
+        "Raportul de buget",
+        "Codul sursă"
+      ],
+      "correctAnswer": [
+        "Scope Statement (Documentul de aplicare)"
+      ],
+      "chapter": 3
+    },
+    {
+      "question": "Care este relația simplificată dintre Durată (D), Efort (E) și Resurse (M)?",
+      "options": [
+        "D = E * M",
+        "D = E + M",
+        "D = E / M",
+        "D = M / E"
+      ],
+      "correctAnswer": [
+        "D = E / M"
+      ],
+      "chapter": 3
+    },
+    {
+      "question": "Ce tehnică de estimare implică un grup de experți care oferă estimări anonime în runde succesive?",
+      "options": [
+        "Analiza punctelor funcționale (Function Points)",
+        "Wideband Delphi",
+        "Estimarea algoritmică",
+        "Project Crashing"
+      ],
+      "correctAnswer": [
+        "Wideband Delphi"
+      ],
+      "chapter": 3
+    },
+    {
+      "question": "În tehnica PERT, cum se calculează media ponderată (Expected Time) folosind estimările Optimist (O), Pesimist (P) și Cel mai probabil (M)?",
+      "options": [
+        "(O + P) / 2",
+        "(O + M + P) / 3",
+        "(O + 4M + P) / 6",
+        "(O + 2M + P) / 4"
+      ],
+      "correctAnswer": [
+        "(O + 4M + P) / 6"
+      ],
+      "chapter": 3
+    },
+    {
+      "question": "Ce reprezintă 'Drumul Critic' (Critical Path) într-o planificare?",
+      "options": [
+        "Secvența de activități cu cele mai mari riscuri",
+        "Secvența de activități care determină durata minimă totală a proiectului",
+        "Drumul cu cele mai puține resurse alocate",
+        "Toate activitățile care nu au dependențe"
+      ],
+      "correctAnswer": [
+        "Secvența de activități care determină durata minimă totală a proiectului"
+      ],
+      "chapter": 3
+    },
+    {
+      "question": "Ce tip de dependență între activități este descris de relația 'Finish-to-Start' (FS)?",
+      "options": [
+        "Activitatea B nu poate începe înainte ca activitatea A să se termine",
+        "Activitatea B nu se poate termina înainte ca activitatea A să se termine",
+        "Activitatea B trebuie să înceapă în același timp cu A",
+        "Activitatea A nu se poate termina înainte ca B să înceapă"
+      ],
+      "correctAnswer": [
+        "Activitatea B nu poate începe înainte ca activitatea A să se termine"
+      ],
+      "chapter": 3
+    },
+    {
+      "question": "Care dintre următoarele sunt tehnici de comprimare (scurtare) a planului proiectului? (Selectați toate opțiunile corecte)",
+      "options": [
+        "Project Crashing (Alocarea de resurse suplimentare)",
+        "Fast Tracking (Paralelizarea activităților)",
+        "Adăugarea de noi funcționalități (Scope Creep)",
+        "Creșterea detaliului în WBS"
+      ],
+      "correctAnswer": [
+        "Project Crashing (Alocarea de resurse suplimentare)",
+        "Fast Tracking (Paralelizarea activităților)"
+      ],
+      "chapter": 3
+    },
+    {
+      "question": "Ce reprezintă un 'Milestone' în planificarea proiectului?",
+      "options": [
+        "O sarcină care durează exact o zi",
+        "Un eveniment semnificativ sau punct de control în proiect, având de obicei durata zero",
+        "O persoană cheie din echipa de management",
+        "Un instrument software de monitorizare"
+      ],
+      "correctAnswer": [
+        "Un eveniment semnificativ sau punct de control în proiect, având de obicei durata zero"
+      ],
+      "chapter": 3
+    },
+    {
+      "question": "Care este 'Regula de 100%' în contextul WBS (Work Breakdown Structure)?",
+      "options": [
+        "Proiectul trebuie terminat în 100% din timpul alocat",
+        "WBS-ul trebuie să includă 100% din munca definită prin scopul proiectului și nimic în plus",
+        "Fiecare membru al echipei trebuie să lucreze 100% din timp",
+        "Costurile nu trebuie să depășească 100% din buget"
+      ],
+      "correctAnswer": [
+        "WBS-ul trebuie să includă 100% din munca definită prin scopul proiectului și nimic în plus"
+      ],
+      "chapter": 3
+    },
+    {
+      "question": "Care dintre următoarele sunt considerate costuri directe într-un proiect software? (Multiple choice)",
+      "options": [
+        "Salariile personalului administrativ (HR, contabilitate)",
+        "Chiria sediului firmei",
+        "Salariile dezvoltatorilor implicați direct în proiect",
+        "Licențele software specifice achiziționate pentru proiect"
+      ],
+      "correctAnswer": [
+        "Salariile dezvoltatorilor implicați direct în proiect",
+        "Licențele software specifice achiziționate pentru proiect"
+      ],
+      "chapter": 3
+    },
+    {
+      "question": "În analiza valorii dobândite (Earned Value Analysis), ce indică un CPI (Cost Performance Index) mai mic decât 1?",
+      "options": [
+        "Proiectul este sub buget (eficient)",
+        "Proiectul este peste buget (costurile sunt mai mari decât valoarea produsă)",
+        "Proiectul este înaintea planificării",
+        "Proiectul este terminat"
+      ],
+      "correctAnswer": [
+        "Proiectul este peste buget (costurile sunt mai mari decât valoarea produsă)"
+      ],
+      "chapter": 3
+    },
+    {
+      "question": "Ce regulă de creditare a valorii este cel mai des folosită în Agile EVA pentru task-uri?",
+      "options": [
+        "Regula 50/50",
+        "Regula 0/100 (valoarea se acordă doar când task-ul este complet finalizat)",
+        "Regula procentului de completare raportat de dezvoltator",
+        "Regula liniară"
+      ],
+      "correctAnswer": [
+        "Regula 0/100 (valoarea se acordă doar când task-ul este complet finalizat)"
+      ],
+      "chapter": 3
+    },
+    {
+      "question": "Ce tip de terminare a proiectului apare atunci când resursele (bugetul) sunt tăiate sau retrase ('Terminare prin înfometare')?",
+      "options": [
+        "Starvation (Înfometare)",
+        "Integration (Integrare)",
+        "Extinction (Extincție)",
+        "Addition (Adăugare)"
+      ],
+      "correctAnswer": [
+        "Starvation (Înfometare)"
+      ],
+      "chapter": 3
+    },
+    {
+      "question": "Care este diferența principală dintre Quality Assurance (QA) și Quality Control (QC)?",
+      "options": [
+        "QA se ocupă de produs, QC de proces",
+        "QA este orientat spre prevenire și proces, QC este orientat spre detecție și produs",
+        "Nu există nicio diferență",
+        "QC se face înaintea QA"
+      ],
+      "correctAnswer": [
+        "QA este orientat spre prevenire și proces, QC este orientat spre detecție și produs"
+      ],
+      "chapter": 4
+    },
+    {
+      "question": "Care dintre următoarele sunt strategii de răspuns la riscurile negative (amenințări)? (Multiple choice)",
+      "options": [
+        "Evitare (Avoid)",
+        "Exploatare (Exploit)",
+        "Transfer (Transfer)",
+        "Atenuare (Mitigate)"
+      ],
+      "correctAnswer": [
+        "Evitare (Avoid)",
+        "Transfer (Transfer)",
+        "Atenuare (Mitigate)"
+      ],
+      "chapter": 4
+    },
+    {
+      "question": "Ce reprezintă un 'Baseline' (Referință) în Configuration Management?",
+      "options": [
+        "Prima versiune de cod scrisă",
+        "Un punct de referință aprobat (snapshot) al produsului, folosit ca bază pentru comparație",
+        "Lista tuturor angajaților",
+        "Data de sfârșit a proiectului"
+      ],
+      "correctAnswer": [
+        "Un punct de referință aprobat (snapshot) al produsului, folosit ca bază pentru comparație"
+      ],
+      "chapter": 4
+    },
+    {
+      "question": "Care sunt stadiile dezvoltării echipei conform modelului lui Tuckman (în ordine)?",
+      "options": [
+        "Norming, Storming, Performing, Forming",
+        "Forming, Storming, Norming, Performing, Adjourning",
+        "Starting, Working, Fighting, Finishing",
+        "Forming, Performing, Norming, Storming"
+      ],
+      "correctAnswer": [
+        "Forming, Storming, Norming, Performing, Adjourning"
+      ],
+      "chapter": 5
+    },
+    {
+      "question": "Într-o matrice RACI, ce înseamnă litera 'A'?",
+      "options": [
+        "Advisor (Consilier)",
+        "Accountable (Persoana care răspunde final și are drept de veto)",
+        "Assistant (Asistent)",
+        "Approver (Doar aprobă)"
+      ],
+      "correctAnswer": [
+        "Accountable (Persoana care răspunde final și are drept de veto)"
+      ],
+      "chapter": 5
+    },
+    {
+      "question": "Care structură organizațională oferă Managerului de Proiect cea mai mare autoritate?",
+      "options": [
+        "Structura Funcțională",
+        "Matricea Slabă (Weak Matrix)",
+        "Structura orientată pe proiecte (Projectized)",
+        "Matricea Echilibrată (Balanced Matrix)"
+      ],
+      "correctAnswer": [
+        "Structura orientată pe proiecte (Projectized)"
+      ],
+      "chapter": 5
+    },
+    {
+      "question": "Ce reprezintă 'Gold Plating' în managementul proiectelor?",
+      "options": [
+        "Adăugarea de funcționalități extra care nu au fost cerute, crescând costurile și riscurile",
+        "Finalizarea proiectului sub buget",
+        "Obținerea unei certificări de aur",
+        "Folosirea celor mai scumpe echipamente"
+      ],
+      "correctAnswer": [
+        "Adăugarea de funcționalități extra care nu au fost cerute, crescând costurile și riscurile"
+      ],
+      "chapter": 4
+    },
+    {
+      "question": "În analiza riscului, cum se calculează de obicei Severitatea (sau Expunerea) riscului?",
+      "options": [
+        "Probabilitate + Impact",
+        "Probabilitate x Impact",
+        "Probabilitate / Impact",
+        "Impact - Probabilitate"
+      ],
+      "correctAnswer": [
+        "Probabilitate x Impact"
+      ],
+      "chapter": 4
+    },
+    {
+      "question": "Care diagramă este folosită specific în Agile pentru a vizualiza munca rămasă de făcut în timp?",
+      "options": [
+        "Diagrama Gantt",
+        "Diagrama Burndown",
+        "Diagrama Pareto",
+        "Diagrama Ishikawa"
+      ],
+      "correctAnswer": [
+        "Diagrama Burndown"
+      ],
+      "chapter": 3
+    },
+    {
+      "question": "Ce document formalizează autorizarea unui proiect și conferă autoritate managerului de proiect?",
+      "options": [
+        "Project Charter",
+        "WBS",
+        "Risk Register",
+        "Gantt Chart"
+      ],
+      "correctAnswer": [
+        "Project Charter"
+      ],
+      "chapter": 3
+    },
+    {
+      "question": "Care sunt cele trei stiluri principale de comunicare menționate în curs?",
+      "options": [
+        "Verbal, Non-verbal, Scris",
+        "Agresiv, Pasiv, Asertiv",
+        "Formal, Informal, Tehnic",
+        "Direct, Indirect, Subliminal"
+      ],
+      "correctAnswer": [
+        "Agresiv, Pasiv, Asertiv"
+      ],
+      "chapter": 5
+    },
+    {
+      "question": "Care este scopul principal al Planificării Comunicării?",
+      "options": [
+        "Să reducă numărul de emailuri trimise",
+        "Să livreze informația corectă, oamenilor potriviți, la momentul potrivit",
+        "Să creeze o arhivă completă a tuturor conversațiilor",
+        "Să elimine complet ședințele față în față"
+      ],
+      "correctAnswer": [
+        "Să livreze informația corectă, oamenilor potriviți, la momentul potrivit"
+      ],
+      "chapter": 5
+    },
+    {
+      "question": "În modelul de contract 'Time and Materials' (Timp și Materiale), cine își asumă riscul principal legat de eficiență?",
+      "options": [
+        "Furnizorul (Vendor)",
+        "Clientul",
+        "Echipa de testare",
+        "Managerul de proiect"
+      ],
+      "correctAnswer": [
+        "Clientul"
+      ],
+      "chapter": 6
+    },
+    {
+      "question": "Care model de stabilire a prețului implică un cost fix plătit periodic pentru a rezerva disponibilitatea furnizorului (similar cu angajarea)?",
+      "options": [
+        "Fixed Price",
+        "Cost Plus",
+        "Retainer (Reținere de fonduri)",
+        "Licențiere"
+      ],
+      "correctAnswer": [
+        "Retainer (Reținere de fonduri)"
+      ],
+      "chapter": 6
+    },
+    {
+      "question": "Care sunt dezavantajele principale ale modelului Waterfall (Cascadă)? (Multiple choice)",
+      "options": [
+        "Este dificilă schimbarea cerințelor pe parcurs (rigiditate)",
+        "Clientul vede produsul final doar la sfârșit",
+        "Nu permite documentarea cerințelor",
+        "Este prea rapid pentru proiecte mari"
+      ],
+      "correctAnswer": [
+        "Este dificilă schimbarea cerințelor pe parcurs (rigiditate)",
+        "Clientul vede produsul final doar la sfârșit"
+      ],
+      "chapter": 7
+    },
+    {
+      "question": "În modelul V-Cycle, ce corespunde etapei de 'Coding' (Implementare) pe ramura de testare?",
+      "options": [
+        "Acceptance Testing",
+        "System Testing",
+        "Unit Testing",
+        "Integration Testing"
+      ],
+      "correctAnswer": [
+        "Unit Testing"
+      ],
+      "chapter": 7
+    },
+    {
+      "question": "Ce reprezintă 'Muda' în filosofia Lean Software Development?",
+      "options": [
+        "Suprasolicitarea echipei",
+        "Activitățile care nu aduc valoare (Risipa)",
+        "Dezechilibrul în proces",
+        "Calitatea codului"
+      ],
+      "correctAnswer": [
+        "Activitățile care nu aduc valoare (Risipa)"
+      ],
+      "chapter": 7
+    },
+    {
+      "question": "Care sunt valorile Manifestului Agile? (Multiple choice)",
+      "options": [
+        "Indivizii și interacțiunile înaintea proceselor și instrumentelor",
+        "Software funcțional înaintea documentației complexe",
+        "Negocierea contractului înaintea colaborării cu clientul",
+        "Răspunsul la schimbare înaintea urmăririi unui plan strict"
+      ],
+      "correctAnswer": [
+        "Indivizii și interacțiunile înaintea proceselor și instrumentelor",
+        "Software funcțional înaintea documentației complexe",
+        "Răspunsul la schimbare înaintea urmăririi unui plan strict"
+      ],
+      "chapter": 7
+    },
+    {
+      "question": "În metodologia SCRUM, cine este responsabil de prioritizarea cerințelor și maximizarea valorii produsului (ROI)?",
+      "options": [
+        "Scrum Master",
+        "Product Owner (Deținătorul produsului)",
+        "Development Team",
+        "Stakeholderii externi"
+      ],
+      "correctAnswer": [
+        "Product Owner (Deținătorul produsului)"
+      ],
+      "chapter": 7
+    },
+    {
+      "question": "Ce eveniment SCRUM are loc zilnic, durează maxim 15 minute și răspunde la întrebările 'Ce am făcut ieri?', 'Ce fac azi?', 'Ce blocaje am?'?",
+      "options": [
+        "Sprint Planning",
+        "Sprint Review",
+        "Daily Scrum (Stand-up)",
+        "Sprint Retrospective"
+      ],
+      "correctAnswer": [
+        "Daily Scrum (Stand-up)"
+      ],
+      "chapter": 7
+    },
+    {
+      "question": "Ce practică din Extreme Programming (XP) implică doi programatori lucrând la același calculator?",
+      "options": [
+        "Code Refactoring",
+        "Continuous Integration",
+        "Pair Programming",
+        "Test Driven Development"
+      ],
+      "correctAnswer": [
+        "Pair Programming"
+      ],
+      "chapter": 7
+    },
+    {
+      "question": "Care este formatul standard al unui 'User Story'?",
+      "options": [
+        "IF [condiție] THEN [acțiune]",
+        "Ca [rol], vreau [funcționalitate], pentru [motiv]",
+        "Diagramă UML de tip Use Case",
+        "Listă de pași numerotați"
+      ],
+      "correctAnswer": [
+        "Ca [rol], vreau [funcționalitate], pentru [motiv]"
+      ],
+      "chapter": 7
+    },
+    {
+      "question": "Ce se întâmplă în cadrul evenimentului 'Sprint Retrospective'?",
+      "options": [
+        "Echipa prezintă demo-ul produsului către client",
+        "Echipa analizează procesul de lucru (ce a mers bine/rău) pentru a se îmbunătăți",
+        "Product Owner-ul scrie noi User Stories",
+        "Se estimează durata următorului proiect"
+      ],
+      "correctAnswer": [
+        "Echipa analizează procesul de lucru (ce a mers bine/rău) pentru a se îmbunătăți"
+      ],
+      "chapter": 7
+    },
+    {
+      "question": "În Agile/Scrum, ce instrument vizual este folosit adesea pentru a măsura progresul (munca rămasă vs timp)?",
+      "options": [
+        "Gantt Chart",
+        "Burndown Chart",
+        "Pert Chart",
+        "RACI Matrix"
+      ],
+      "correctAnswer": [
+        "Burndown Chart"
+      ],
+      "chapter": 7
+    },
+    {
+      "question": "Ce presupune practica 'Refactoring' în XP (Extreme Programming)?",
+      "options": [
+        "Scrierea codului de la zero",
+        "Adăugarea de noi funcționalități majore",
+        "Îmbunătățirea structurii interne a codului fără a-i schimba comportamentul extern",
+        "Corectarea bug-urilor raportate de clienți"
+      ],
+      "correctAnswer": [
+        "Îmbunătățirea structurii interne a codului fără a-i schimba comportamentul extern"
+      ],
+      "chapter": 7
+    }
+  ]
+}

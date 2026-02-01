@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Prep App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo" id="app-logo">Exam Prep</div>
+        <button onclick="showMenu()">Home</button>
+    </nav>
+
+    <main id="app">
+        <!-- Main Menu -->
+        <div id="menu-view" class="view hidden">
+            <h1 id="menu-title">Select a Topic</h1>
+            <div class="grid" id="chapter-grid"></div>
+        </div>
+
+        <!-- Quiz View -->
+        <div id="quiz-view" class="view active">
+            <div class="quiz-header">
+                <h2 id="quiz-title">Quiz</h2>
+                <span id="score-display">Score: 0</span>
+            </div>
+            <div id="quiz-container">
+                <!-- Questions injected here by JS -->
+            </div>
+            <button id="submit-quiz" onclick="submitQuiz()">Submit Answers</button>
+            <button onclick="showMenu()">Back to Menu</button>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
