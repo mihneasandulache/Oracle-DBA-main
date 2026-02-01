@@ -169,6 +169,20 @@ button:hover { opacity: 0.9; }
 }
 .options label:hover { background: rgba(255,255,255,0.05); }
 
+.options input[type="radio"],
+.options input[type="checkbox"] {
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.quiz-item > .hint {
+    display: block;
+    font-size: 0.85rem;
+    color: #999;
+    margin-bottom: 0.8rem;
+    font-style: italic;
+}
+
 /* Feedback Styles */
 .correct { color: var(--accent); font-weight: bold; }
 .wrong { color: var(--danger); text-decoration: line-through; margin-right: 0.5rem; }

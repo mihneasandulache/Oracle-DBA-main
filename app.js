@@ -50,13 +50,15 @@ function startQuiz(quizTitle) {
     container.innerHTML = '';
     
     currentData.forEach((q, index) => {
+        const correctAnswers = Array.isArray(q.correctAnswer) ? q.correctAnswer : [q.correctAnswer];
         const html = `
             <div class="quiz-item" id="q-${index}">
                 <p><strong>${index + 1}. ${q.question}</strong></p>
+                <span class="hint">(Select all that apply)</span>
                 <div class="options">
                     ${q.options.map((opt) => `
                         <label>
-                            <input type="radio" name="q${index}" value="${opt}">
+                            <input type="checkbox" name="q${index}" value="${opt}">
                             ${opt}
                         </label>
                     `).join('')}
@@ -79,22 +81,29 @@ function submitQuiz() {
     const questions = document.querySelectorAll('.quiz-item');
     
     questions.forEach((item, index) => {
-        const selected = item.querySelector(`input[name="q${index}"]:checked`);
         const feedback = item.querySelector('.feedback');
         const correctAnswers = window.quizAnswers[index];
+        const correctArray = Array.isArray(correctAnswers) ? correctAnswers : [correctAnswers];
+        
+        // Get all selected answers (works for both radio and checkbox)
+        const selectedInputs = item.querySelectorAll(`input[name="q${index}"]:checked`);
+        const selectedAnswers = Array.from(selectedInputs).map(input => input.value);
         
         feedback.classList.remove('hidden');
         feedback.className = 'feedback'; // Reset classes
         
-        // Handle both single and multiple correct answers
-        const correctArray = Array.isArray(correctAnswers) ? correctAnswers : [correctAnswers];
+        // Check if selected answers match correct answers exactly
+        const isCorrect = selectedAnswers.length === correctArray.length &&
+                         selectedAnswers.every(ans => correctArray.includes(ans)) &&
+                         correctArray.every(ans => selectedAnswers.includes(ans));
         
-        if (selected && correctArray.includes(selected.value)) {
+        if (isCorrect && selectedAnswers.length > 0) {
             score++;
             feedback.innerHTML = `<span class="correct">✓ Correct</span>`;
         } else {
             const correctStr = correctArray.join(" / ");
-            feedback.innerHTML = `<span class="wrong">✗ Wrong</span> (Correct: ${correctStr})`;
+            const selectedStr = selectedAnswers.length > 0 ? selectedAnswers.join(" / ") : "(no answer selected)";
+            feedback.innerHTML = `<span class="wrong">✗ Wrong</span> (Your answer: ${selectedStr}) (Correct: ${correctStr})`;
         }
     });
     
