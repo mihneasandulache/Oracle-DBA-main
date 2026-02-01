@@ -14,7 +14,7 @@
       "chapter": 1
     },
     {
-      "question": "Care dintre următoarele sunt caracteristici principale ale unui proiect? (Selectați toate opțiunile corecte)",
+      "question": "Care dintre următoarele sunt caracteristici principale ale unui proiect?",
       "options": [
         "Este temporar (are un început și un sfârșit)",
         "Produce rezultate unice",
@@ -159,7 +159,7 @@
       "chapter": 3
     },
     {
-      "question": "Care dintre următoarele sunt tehnici de comprimare (scurtare) a planului proiectului? (Selectați toate opțiunile corecte)",
+      "question": "Care dintre următoarele sunt tehnici de comprimare (scurtare) a planului proiectului?",
       "options": [
         "Project Crashing (Alocarea de resurse suplimentare)",
         "Fast Tracking (Paralelizarea activităților)",

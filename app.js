@@ -54,7 +54,6 @@ function startQuiz(quizTitle) {
         const html = `
             <div class="quiz-item" id="q-${index}">
                 <p><strong>${index + 1}. ${q.question}</strong></p>
-                <span class="hint">(Select all that apply)</span>
                 <div class="options">
                     ${q.options.map((opt) => `
                         <label>
